@@ -1,0 +1,72 @@
+CLASE 2 
+
+Variables
+Una variable es un espacio de memoria donde guardamos un dato, ese espacio de memoria a la vez recibe un nombre y esto conforma la estructura de datos más simples que podemos encontrar.
+
+Consideraciones:
+NO puede emepezar con un numero
+NO se puede usar el guion medio -
+NO se puede usar nombres reservados para Phyton
+
+EJEMPLO
+
+mi_variable = "Ariosto"
+print(mi_variable)
+
+>>>>
+Ariosto
+
+Constante
+
+Es el valor fijo que nosotros introducimos mediante el codigo para asignar valor a una variable. Las constantes pueden ser de diferentes tipos de datos como por ejemplo:
+
+Enteros
+Cadenas de caracteres
+Flotantes (ejemplo mi_variable = 1.25)
+Booleanos
+Complejos (ejemplo mi_var = 12 + 1j)
+
+¿Como saber el tipo de dato?
+con la función Type
+ejemplo 
+mi_variable1 = 10.25
+mi_variable2 = 10
+mi_variable3 = "Diez"
+mi_variable4 = True
+mi_variable5 = 1 + 1J
+
+type(mi_variable5)
+>>>
+complex
+
+OPERACIONES ENTRE VARIABLES
+Al hacer uso de las variables, se necesita realizar todo tipo de operaciones entre ellas, por ejemplo operaciones aritmeticas como sumar o restar, operaciones lógicas como chequear la veracidad de una afirmación u operaciones con cadenas de caracteres que permitan pro ejemplo concatenar dos frases. Las operaciones posibles se determinan según el tipo de dato que intervene en la misma.
+
+OR // AND 
+
+Estas son las posibles operaciones logicas basicas 
+
+A B   A and B
+1 0        0
+0 0        0
+0 1        0
+1 1        1
+
+
+A B   A or B
+1 0       1
+0 0       0
+0 1       1
+1 1       1
+
+Conversión del tipo de datos
+
+Puede haber ocasiones en las que desee especificar un tipo en una variable. Esto se puede hacer con lo que se denomina casting. La conversión de tipo de dato en phyton se realiza mediante funciones:
+
+int(): construye un número entero a partir de un literal entero, un literal flotante ( eliminando todos los decimales) o un literal de cadena (siempre que la cadena represente un número entero)
+float(): construye un número flotante a partir de un literal entero, un literal flotante o un literal de cadena (siempre que la cadena represente un flotante o un entero)
+str(): construye una cadena a partir de una amplia variedad de tipos de datos, incluidas cadenas, literales enteros y literales flotantes.
+
+
+
+

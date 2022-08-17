@@ -1,0 +1,18 @@
+CLASE INTRODUCTORIA DE DATA SCIENCE 
+
+Los datos tienen un ciclo de vida, pueden ser generados por usuarios, clientes, incluso dispositivos! 
+Estos datos se utilizan para automatizar los procesos de negocios. 
+
+¿Qué es la programación?
+
+Programar es armar una secuencia lógica de pasos a seguir con el fin de cumplir con un objetivo.
+
+Para hacer esto es necesario contar con un lenguaje formal para darle instruccione a la computadora.
+Los lenguajes de programación modernos se les conoce como Turing completeness, ya que implementan todos los principios para implementar cualquier tipo de algoritmo.
+
+Todos los lenguajes tienen:
+
+Sintaxis: Define la secuencia de símbolos que está bien formada.
+Semántica estática: Define que enunciados con sintaxis correcta tienen significado.
+Semántica: Define el significado. En los lenguajes de programación solo hay un significado.
+
